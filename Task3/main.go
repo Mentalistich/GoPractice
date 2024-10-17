@@ -3,6 +3,8 @@ package main
 import (
 	"fmt"
 	"sort"
+	"strings"
+	"unicode"
 )
 
 type sortRunes []rune
@@ -21,6 +23,9 @@ func (s sortRunes) Len() int {
 
 func SortString(s string) string {
 	r := []rune(s)
+	for i, value := range r {
+		r[i] = unicode.ToLower(value)
+	}
 	sort.Sort(sortRunes(r))
 	return string(r)
 }
@@ -32,7 +37,7 @@ func GroupAnagrams(words []string) map[string][]string {
 		//sort.Slice(val, func(i, j int) bool {
 		//	return val[i] < val[j]
 		//})
-		val = SortString(val)
+		val = SortString(strings.ToLower(val))
 		group[val] = append(group[val], words[i])
 	}
 	fmt.Println(group)
