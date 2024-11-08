@@ -37,6 +37,7 @@ func GroupAnagrams(words []string) map[string][]string {
 		//sort.Slice(val, func(i, j int) bool {
 		//	return val[i] < val[j]
 		//})
+
 		val = SortString(strings.ToLower(val))
 		group[val] = append(group[val], words[i])
 	}

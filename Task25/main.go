@@ -16,6 +16,7 @@ func newSlice(slice []int) []int {
 		return (result[i]) > (result[j])
 	})
 	return result
+
 }
 
 func main() {

@@ -18,6 +18,7 @@ func sliceslice(matrix [][]int) []int {
 			result[i] = max
 		} else {
 			result[i] = 0
+
 		}
 	}
 	sort.Ints(result)

@@ -19,6 +19,7 @@ func stringInfo(s string) map[string]int {
 			indexes = append(indexes, i)
 		}
 	}
+
 	sort.Slice(indexes, func(i, j int) bool { return indexes[i] > indexes[j] })
 	for i := len(str) - 2; i >= 0; i-- {
 		if slices.Contains(indexes, i) {

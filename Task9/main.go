@@ -21,6 +21,7 @@ func mapMerge(map1 map[string]int, map2 map[string]int) map[string]int {
 	}
 
 	return result
+
 }
 
 func main() {

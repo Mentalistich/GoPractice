@@ -18,6 +18,7 @@ func average(slice []int) []int {
 	if len(temp) != 0 {
 		aver = aver / len(temp)
 		fmt.Println(aver)
+
 	} else {
 
 		return temp

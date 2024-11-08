@@ -18,6 +18,7 @@ func CompressString(s string) string {
 				if counter > 1 {
 					str += strconv.Itoa(counter)
 				}
+
 				counter = 1
 			}
 		}

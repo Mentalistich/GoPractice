@@ -24,6 +24,7 @@ func sortMap(s string) []string {
 		return len(result[i]) < len(result[j])
 	})
 	return result
+
 }
 
 func main() {

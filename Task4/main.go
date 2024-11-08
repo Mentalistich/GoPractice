@@ -18,6 +18,7 @@ func CommonCharacters(a, b string) []rune {
 	return eqRune
 }
 func main() {
+
 	a := CommonCharacters("apple", "pineapple")
 	fmt.Println(string(a))
 }

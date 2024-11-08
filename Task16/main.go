@@ -17,6 +17,7 @@ func deleteAllPunctuation(s string) map[string]int {
 		}
 	}
 	letters := strings.Fields(str)
+
 	result := make(map[string]int)
 	for _, val := range letters {
 		result[val]++

@@ -20,6 +20,7 @@ func upRegisterStrings(s []string) []string {
 		}
 	}
 	return result
+
 }
 
 func main() {

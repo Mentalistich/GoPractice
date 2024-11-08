@@ -16,6 +16,7 @@ func deleteAndReverse(s string) string {
 		result += string(temp[i])
 	}
 	return result
+
 }
 
 func main() {

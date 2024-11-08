@@ -19,5 +19,6 @@ func convertNumbers(s string) int {
 
 func main() {
 	s := "wki2kiaj45"
+
 	fmt.Println(convertNumbers(s))
 }
