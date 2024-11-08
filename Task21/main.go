@@ -16,6 +16,7 @@ func multipleSlice(slice []int) []int {
 		}
 	}
 	return result
+
 }
 
 func main() {

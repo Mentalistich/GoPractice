@@ -28,5 +28,6 @@ func stringsLen(s string) [][]string {
 
 func main() {
 	s := "apple apple apple apple bat cat dog elephant frog"
+
 	fmt.Println(stringsLen(s))
 }

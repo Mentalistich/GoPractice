@@ -14,6 +14,7 @@ func wordsIndexes(s string) map[string]string {
 		result[val] += " "
 	}
 	return result
+
 }
 
 func main() {

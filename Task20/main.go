@@ -22,4 +22,5 @@ func returnMap(s string) map[string]int {
 
 func main() {
 	fmt.Println(returnMap("qqq www sss qqq sss "))
+
 }

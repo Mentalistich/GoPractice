@@ -39,6 +39,7 @@ func filterStrings(s []string, lenght int) string {
 		return result[indexesMin]
 	} else {
 		return resultStr
+
 	}
 
 }
